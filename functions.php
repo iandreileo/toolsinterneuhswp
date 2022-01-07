@@ -23,6 +23,7 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
 
-// Includem functiile noastre
+
 include ('uhs-login.php');
 include ('uhs-register.php');
+include ('custom-functions.php');
